@@ -9,7 +9,7 @@ body {
   text-align: center;
   font-family: "Roboto", sans-serif;
   color: #222;
-  background: #5c5b5a;
+  background: #f7f5f0;
 }
 /* Link Styles */
 
@@ -188,7 +188,7 @@ a.social:hover {
   }
 
   main {
-    /* padding-top: 30px; */
+    padding-top: 200px;
   }
 
   main p {

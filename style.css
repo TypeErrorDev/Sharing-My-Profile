@@ -57,8 +57,8 @@ a:hover {
 
 header {
   text-align: center;
-  background: url("/images/Sacramento2.jpg") no-repeat top center;
-  background-size: 100% 100%;
+  background: url("images/portland.jpg") no-repeat top center;
+  background-size: cover;
   overflow: hidden;
   padding-top: 60px;
 }
@@ -69,12 +69,12 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 20px;
-  border: 3px solid grey;
-  transition: all 1s;
+  border-radius: 50%;
+  border: 3px solid white;
+  transition: all 0.5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(15deg);
+  transform: scale(1.2) rotate(5deg);
 }
 .tag {
   background-color: #efefef;
@@ -86,7 +86,7 @@ header .profile-image:hover {
 }
 .location {
   background-color: #222;
-  color: #ff9904;
+  color: yellow;
 }
 .card {
   margin: 30px;
@@ -99,7 +99,7 @@ header .profile-image:hover {
   transition: all 0.5s;
 }
 .card:hover {
-  border-color: #6c6d71;
+  border-color: #ff99ff;
 }
 
 ul.skills {
@@ -152,13 +152,13 @@ a.social {
   transition: all 0.5s;
 }
 a.twitter {
-  background-image: url(/images/twitter.svg);
+  background-image: url(images/twitter.svg);
 }
 a.linkedin {
-  background-image: url(/images/linkedin.svg);
+  background-image: url(images/linkedin.svg);
 }
 a.github {
-  background-image: url(/images/github.svg);
+  background-image: url(images/github.svg);
 }
 a.social:hover {
   opacity: 1;

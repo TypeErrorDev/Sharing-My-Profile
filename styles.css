@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url("/images/Sacramento2.jpg") no-repeat top center;
+  background: url("images/Sacramento2.jpg") no-repeat top center;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -69,10 +69,11 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 25%;
-  border: 6px double #0399ff;
+  border-radius: 90px/30px;
+  border: 6px ridge #0399ff;
   transition: all 0.5s;
 }
+
 header .profile-image:hover {
   transform: scale(1.5) rotate(15deg);
 }
@@ -203,7 +204,13 @@ a.social:hover {
 }
 
 /* Styles for Projects.html */
-
+.project-banner {
+  text-align: center;
+  background: url("images/projects_bg.jpg") no-repeat top center;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+}
 a.github-project1,
 a.github-project1:visited,
 a.github-project1:hover,
@@ -214,6 +221,14 @@ a.github-project1:active {
 
 /* Styles for contacts.html*/
 /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#cedce7+0,596a72+100;Grey+3D+%231 */
+
+.contact-banner {
+  text-align: center;
+  background: url("images/contact_banner2.jpg") no-repeat top center;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+}
 .contact,
 .projects,
 .index {
